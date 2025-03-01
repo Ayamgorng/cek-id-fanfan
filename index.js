@@ -4,16 +4,10 @@ const cors = require('cors');
 const { cekIdGameController } = require('./controllers/cekIdGameController');
 const _ = require('lodash');
 const path = require('path');
-const { createClient } = require('@supabase/supabase-js');
 const { dataGame } = require('./lib/dataGame');
 const getZoneController = require('./controllers/getZoneController');
-
 const app = express();
 const port = process.env.PORT || 3001;
-
-const supabaseUrl = import.meta.env.NEXT_PUBLIC_SUPABASE_URL
-const supabaseKey = import.meta.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
-const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 app.use(express.json());
 app.use(express.static('public'));
