@@ -1,3 +1,4 @@
+hasil api 🔥: https://api-cekid-711e00e2ad61.herokuapp.com
 Wajib WA ke wa.me/+6287719167254 agar kalo ada update script ga ketinggalan
 
 
